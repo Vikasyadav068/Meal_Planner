@@ -1,0 +1,402 @@
+{
+  "users": [
+    {
+      "_id": "1758986332906",
+      "name": "abc",
+      "email": "abc@gmail.com",
+      "password": "$2a$10$G7gBRGVOnReLVKyN7SjB2.EHG6i0zugFmNbxeh1HNlokllt3P3uBO",
+      "diet": "vegetarian",
+      "allergies": [
+        "nuts"
+      ],
+      "cuisines": [
+        "Indian"
+      ],
+      "createdAt": "2025-09-27T15:18:52.906Z",
+      "savedRecipes": []
+    },
+    {
+      "_id": "1759014560885",
+      "name": "Dinesh",
+      "email": "dinesh@gmail.com",
+      "password": "$2a$10$OtrgI/yEOuPJ0bPyGx1YUup65bkZbUwVrYMzln278Rmcd7/d6QTOS",
+      "diet": "vegetarian",
+      "allergies": [
+        "nuts"
+      ],
+      "cuisines": [
+        "Indian"
+      ],
+      "createdAt": "2025-09-27T23:09:20.885Z",
+      "savedRecipes": [
+        "1"
+      ]
+    }
+  ],
+  "recipes": [
+    {
+      "_id": "1",
+      "title": "Mediterranean Quinoa Salad",
+      "ingredients": [
+        "1 cup quinoa",
+        "2 cups vegetable broth",
+        "1 cucumber, diced",
+        "2 tomatoes, diced",
+        "1/2 red onion, diced",
+        "1/2 cup kalamata olives",
+        "1/4 cup feta cheese",
+        "3 tbsp olive oil",
+        "2 tbsp lemon juice",
+        "Salt and pepper to taste"
+      ],
+      "instructions": "Cook quinoa in vegetable broth. Let cool. Mix with vegetables, olives, and feta. Whisk olive oil with lemon juice and season. Toss salad with dressing.",
+      "prepTime": 25,
+      "diet": "vegetarian",
+      "cuisine": "Mediterranean"
+    },
+    {
+      "_id": "2",
+      "title": "Classic Margherita Pizza",
+      "ingredients": [
+        "1 pizza dough",
+        "1/2 cup tomato sauce",
+        "8 oz fresh mozzarella",
+        "Fresh basil leaves",
+        "2 tbsp olive oil",
+        "Salt and pepper",
+        "Parmesan cheese"
+      ],
+      "instructions": "Preheat oven to 475°F. Roll out dough. Spread sauce, add mozzarella. Bake 12-15 minutes. Top with basil, olive oil, and parmesan.",
+      "prepTime": 30,
+      "diet": "vegetarian",
+      "cuisine": "Italian"
+    },
+    {
+      "_id": "3",
+      "title": "Spinach and Ricotta Stuffed Shells",
+      "ingredients": [
+        "20 jumbo pasta shells",
+        "2 cups ricotta cheese",
+        "2 cups fresh spinach",
+        "1/2 cup parmesan",
+        "2 eggs",
+        "2 cups marinara sauce",
+        "1 cup mozzarella",
+        "Garlic",
+        "Italian herbs"
+      ],
+      "instructions": "Cook shells. Mix ricotta, spinach, parmesan, eggs, and seasonings. Stuff shells with mixture. Top with marinara and mozzarella. Bake at 375°F for 25 minutes.",
+      "prepTime": 45,
+      "diet": "vegetarian",
+      "cuisine": "Italian"
+    },
+    {
+      "_id": "4",
+      "title": "Indian Paneer Butter Masala",
+      "ingredients": [
+        "400g paneer cubes",
+        "2 tomatoes",
+        "1 onion",
+        "3 cloves garlic",
+        "1 inch ginger",
+        "2 tbsp butter",
+        "1/2 cup heavy cream",
+        "Garam masala",
+        "Turmeric",
+        "Red chili powder"
+      ],
+      "instructions": "Blend tomatoes, onion, garlic, ginger into paste. Cook paste with spices. Add paneer and cream. Simmer until thick. Garnish with butter and coriander.",
+      "prepTime": 30,
+      "diet": "vegetarian",
+      "cuisine": "Indian"
+    },
+    {
+      "_id": "5",
+      "title": "Vegan Chocolate Avocado Mousse",
+      "ingredients": [
+        "2 ripe avocados",
+        "1/4 cup cocoa powder",
+        "1/4 cup maple syrup",
+        "2 tbsp almond milk",
+        "1 tsp vanilla extract",
+        "Pinch of salt",
+        "Fresh berries for topping"
+      ],
+      "instructions": "Blend all ingredients except berries until smooth and creamy. Chill for 2 hours. Serve topped with fresh berries.",
+      "prepTime": 10,
+      "diet": "vegan",
+      "cuisine": "International"
+    },
+    {
+      "_id": "6",
+      "title": "Vegan Buddha Bowl",
+      "ingredients": [
+        "1 cup quinoa",
+        "1 sweet potato",
+        "1 cup chickpeas",
+        "2 cups kale",
+        "1/4 cup tahini",
+        "2 tbsp lemon juice",
+        "1 avocado",
+        "Pumpkin seeds",
+        "Olive oil",
+        "Salt and pepper"
+      ],
+      "instructions": "Roast sweet potato and chickpeas. Cook quinoa. Massage kale with olive oil. Make tahini dressing. Arrange all in bowl and drizzle with dressing.",
+      "prepTime": 35,
+      "diet": "vegan",
+      "cuisine": "International"
+    },
+    {
+      "_id": "7",
+      "title": "Vegan Lentil Curry",
+      "ingredients": [
+        "1 cup red lentils",
+        "1 can coconut milk",
+        "1 onion",
+        "3 tomatoes",
+        "Ginger-garlic paste",
+        "Cumin seeds",
+        "Turmeric",
+        "Coriander powder",
+        "Garam masala",
+        "Cilantro"
+      ],
+      "instructions": "Sauté onions until golden. Add ginger-garlic paste and spices. Add tomatoes and cook until soft. Add lentils and coconut milk. Simmer until lentils are cooked.",
+      "prepTime": 25,
+      "diet": "vegan",
+      "cuisine": "Indian"
+    },
+    {
+      "_id": "8",
+      "title": "Keto Salmon with Asparagus",
+      "ingredients": [
+        "4 salmon fillets",
+        "1 lb asparagus",
+        "3 tbsp butter",
+        "2 cloves garlic, minced",
+        "1 lemon, juiced",
+        "Salt and pepper",
+        "Fresh dill"
+      ],
+      "instructions": "Season salmon with salt and pepper. Pan sear 4 minutes per side. Sauté asparagus with garlic and butter. Finish with lemon juice and dill.",
+      "prepTime": 20,
+      "diet": "keto",
+      "cuisine": "International"
+    },
+    {
+      "_id": "9",
+      "title": "Keto Chicken Alfredo Zucchini Noodles",
+      "ingredients": [
+        "2 chicken breasts",
+        "3 large zucchini",
+        "1/2 cup heavy cream",
+        "1/2 cup parmesan",
+        "3 tbsp butter",
+        "2 cloves garlic",
+        "Italian seasoning",
+        "Salt and pepper"
+      ],
+      "instructions": "Spiralize zucchini into noodles. Cook chicken and slice. Make alfredo sauce with cream, butter, garlic, and parmesan. Toss everything together.",
+      "prepTime": 25,
+      "diet": "keto",
+      "cuisine": "Italian"
+    },
+    {
+      "_id": "10",
+      "title": "Keto Avocado Bacon Salad",
+      "ingredients": [
+        "4 strips bacon",
+        "2 avocados",
+        "4 cups mixed greens",
+        "2 tbsp olive oil",
+        "1 tbsp apple cider vinegar",
+        "1/4 cup blue cheese",
+        "Cherry tomatoes",
+        "Salt and pepper"
+      ],
+      "instructions": "Cook bacon until crispy. Slice avocados and tomatoes. Toss greens with oil and vinegar. Top with bacon, avocado, tomatoes, and blue cheese.",
+      "prepTime": 15,
+      "diet": "keto",
+      "cuisine": "International"
+    },
+    {
+      "_id": "11",
+      "title": "Paleo Grilled Chicken with Sweet Potato",
+      "ingredients": [
+        "4 chicken breasts",
+        "2 large sweet potatoes",
+        "2 tbsp olive oil",
+        "Rosemary",
+        "Thyme",
+        "Garlic powder",
+        "Salt and pepper",
+        "Lemon"
+      ],
+      "instructions": "Season chicken with herbs and spices. Grill 6-7 minutes per side. Roast sweet potatoes at 400°F for 45 minutes. Serve with lemon wedges.",
+      "prepTime": 50,
+      "diet": "paleo",
+      "cuisine": "International"
+    },
+    {
+      "_id": "12",
+      "title": "Paleo Beef and Vegetable Stir Fry",
+      "ingredients": [
+        "1 lb beef strips",
+        "2 bell peppers",
+        "1 broccoli head",
+        "1 zucchini",
+        "2 carrots",
+        "3 tbsp coconut oil",
+        "2 tbsp coconut aminos",
+        "Ginger",
+        "Garlic",
+        "Sesame seeds"
+      ],
+      "instructions": "Heat coconut oil in wok. Stir fry beef until cooked. Add vegetables and cook until crisp-tender. Season with coconut aminos, ginger, and garlic.",
+      "prepTime": 20,
+      "diet": "paleo",
+      "cuisine": "Asian"
+    },
+    {
+      "_id": "13",
+      "title": "Gluten-Free Chicken Parmesan",
+      "ingredients": [
+        "4 chicken breasts",
+        "1 cup almond flour",
+        "1/2 cup parmesan",
+        "2 eggs",
+        "2 cups marinara sauce",
+        "1 cup mozzarella",
+        "Italian seasoning",
+        "Olive oil"
+      ],
+      "instructions": "Coat chicken in egg, then almond flour mixture. Bake at 400°F for 20 minutes. Top with marinara and mozzarella. Bake 5 more minutes.",
+      "prepTime": 35,
+      "diet": "gluten-free",
+      "cuisine": "Italian"
+    },
+    {
+      "_id": "14",
+      "title": "Gluten-Free Quinoa Stuffed Bell Peppers",
+      "ingredients": [
+        "4 bell peppers",
+        "1 cup quinoa",
+        "1 lb ground turkey",
+        "1 onion",
+        "2 tomatoes",
+        "1 cup corn",
+        "Mexican seasoning",
+        "Cheese",
+        "Cilantro"
+      ],
+      "instructions": "Cook quinoa and brown turkey with onion. Mix with tomatoes, corn, and seasonings. Stuff peppers and bake at 375°F for 30 minutes. Top with cheese.",
+      "prepTime": 45,
+      "diet": "gluten-free",
+      "cuisine": "Mexican"
+    },
+    {
+      "_id": "15",
+      "title": "Spicy Thai Basil Stir Fry",
+      "ingredients": [
+        "1 lb chicken breast, sliced",
+        "3 cloves garlic, minced",
+        "2 thai chilies, minced",
+        "1 cup fresh thai basil",
+        "2 tbsp soy sauce",
+        "1 tbsp oyster sauce",
+        "1 tsp sugar",
+        "2 tbsp vegetable oil",
+        "Steamed jasmine rice"
+      ],
+      "instructions": "Heat oil in wok. Stir fry garlic and chilies. Add chicken and cook until done. Add sauces and sugar. Stir in basil until wilted. Serve over rice.",
+      "prepTime": 15,
+      "diet": "omnivore",
+      "cuisine": "Thai"
+    },
+    {
+      "_id": "16",
+      "title": "Classic Beef Tacos",
+      "ingredients": [
+        "1 lb ground beef",
+        "8 taco shells",
+        "1 onion",
+        "2 tomatoes",
+        "Lettuce",
+        "Cheddar cheese",
+        "Sour cream",
+        "Taco seasoning",
+        "Lime",
+        "Hot sauce"
+      ],
+      "instructions": "Brown beef with taco seasoning. Warm taco shells. Chop vegetables. Assemble tacos with beef, vegetables, cheese, and condiments.",
+      "prepTime": 20,
+      "diet": "omnivore",
+      "cuisine": "Mexican"
+    },
+    {
+      "_id": "17",
+      "title": "Honey Garlic Pork Chops",
+      "ingredients": [
+        "4 pork chops",
+        "1/4 cup honey",
+        "3 tbsp soy sauce",
+        "4 cloves garlic",
+        "2 tbsp olive oil",
+        "1 tbsp apple cider vinegar",
+        "Salt and pepper",
+        "Green onions"
+      ],
+      "instructions": "Season pork chops. Sear in hot pan 4 minutes per side. Make sauce with honey, soy sauce, and garlic. Pour over chops and simmer 2 minutes.",
+      "prepTime": 18,
+      "diet": "omnivore",
+      "cuisine": "Asian"
+    },
+    {
+      "_id": "18",
+      "title": "Mediterranean Lamb Kebabs",
+      "ingredients": [
+        "2 lbs ground lamb",
+        "1 onion",
+        "3 cloves garlic",
+        "1/4 cup parsley",
+        "2 tsp cumin",
+        "1 tsp coriander",
+        "Pita bread",
+        "Tzatziki sauce",
+        "Tomatoes",
+        "Cucumber"
+      ],
+      "instructions": "Mix lamb with minced onion, garlic, herbs and spices. Form into kebabs. Grill 12-15 minutes turning once. Serve with pita, tzatziki and vegetables.",
+      "prepTime": 25,
+      "diet": "omnivore",
+      "cuisine": "Mediterranean"
+    }
+  ],
+  "reviews": [
+    {
+      "_id": "1758987226047",
+      "recipeId": "2",
+      "userId": "1758986332906",
+      "rating": 5,
+      "comment": "1 no.",
+      "createdAt": "2025-09-27T15:33:46.047Z"
+    },
+    {
+      "_id": "1759014711917",
+      "recipeId": "2",
+      "userId": "1759014560885",
+      "rating": 5,
+      "comment": "1 No.",
+      "createdAt": "2025-09-27T23:11:51.917Z"
+    },
+    {
+      "_id": "1759015813143",
+      "recipeId": "5",
+      "userId": "1758986332906",
+      "rating": 5,
+      "comment": "1 no.\n",
+      "createdAt": "2025-09-27T23:30:13.143Z"
+    }
+  ]
+}
